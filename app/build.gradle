@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.example2017.android.androidarchitecture"
-        minSdkVersion 15
-        targetSdkVersion 26
+        minSdkVersion 19
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
@@ -31,4 +31,10 @@ dependencies {
     // Lifecycle components
     compile 'android.arch.lifecycle:extensions:1.1.1'
     annotationProcessor 'android.arch.lifecycle:compiler:1.1.1'
+
+
+    compile 'com.android.support:design:26.0.0-alpha1'
+
+    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
 }
